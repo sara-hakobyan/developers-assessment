@@ -27,7 +27,7 @@ export function useWorklogDashboard() {
   const [excludedBatchWorklogIds, setExcludedBatchWorklogIds] = useState<
     string[]
   >([]);
-  const [appliedFilters, setAppliedFilters] =
+  const [appliedFilters, setAppliedFiltersState] =
     useState<WorklogFiltersValue>(DEFAULT_FILTERS);
   const [expandedBatchWorklogIds, setExpandedBatchWorklogIds] = useState<
     string[]
@@ -142,6 +142,14 @@ export function useWorklogDashboard() {
 
       return current.filter((id) => !worklogIds.includes(id));
     });
+  };
+
+  const setAppliedFilters = (value: WorklogFiltersValue) => {
+    setAppliedFiltersState(value);
+    setSelectedWorklogIds([]);
+    setExcludedBatchWorklogIds([]);
+    setExpandedBatchWorklogIds([]);
+    setIsBatchReviewOpen(false);
   };
 
   const activeWorklog =
