@@ -191,6 +191,22 @@ export function useWorklogDashboard() {
     return reviewableSelectedWorklogs.map((worklog) => worklog.id);
   }, [reviewableSelectedWorklogs]);
 
+  const selectableSelectedWorklogIdSet = useMemo(
+    () =>
+      new Set(
+        selectedWorklogs
+          .filter((worklog) => !isRepayBlocked(worklog))
+          .map((worklog) => worklog.id)
+      ),
+    [selectedWorklogs]
+  );
+
+  const selectableTimeEntries = useMemo(() => {
+    return timeEntries.filter((entry) =>
+      selectableSelectedWorklogIdSet.has(entry.worklogId)
+    );
+  }, [timeEntries, selectableSelectedWorklogIdSet]);
+
   const reviewableSelectedWorklogIdSet = useMemo(
     () => new Set(reviewableSelectedWorklogs.map((worklog) => worklog.id)),
     [reviewableSelectedWorklogs]
@@ -263,6 +279,7 @@ export function useWorklogDashboard() {
     reviewableSelectedCount,
     rows,
     reviewableTimeEntries,
+    selectableTimeEntries,
     selectedBatchTotal,
     selectedEntriesTotalHours,
     selectedWorklogs,

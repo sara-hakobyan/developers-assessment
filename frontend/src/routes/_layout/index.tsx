@@ -43,7 +43,7 @@ function Dashboard() {
     isLoading,
     reviewableSelectedCount,
     rows,
-    reviewableTimeEntries,
+    selectableTimeEntries,
     selectedBatchTotal,
     selectedEntriesTotalHours,
     selectedWorklogs,
@@ -142,7 +142,7 @@ function Dashboard() {
         open={isBatchReviewOpen}
         onOpenChange={handleBatchReviewOpenChange}
         selectedWorklogs={selectedWorklogs}
-        selectedTimeEntries={reviewableTimeEntries}
+        selectedTimeEntries={selectableTimeEntries}
         selectedEntriesTotalHours={selectedEntriesTotalHours}
         selectedBatchTotal={selectedBatchTotal}
         excludedBatchWorklogIds={excludedBatchWorklogIds}
