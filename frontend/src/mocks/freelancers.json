@@ -1,0 +1,32 @@
+[
+  {
+    "id": "fl-000",
+    "fullName": "Sara Hakobyan",
+    "email": "sara.hakoby@example.com",
+    "hourlyRate": 100
+  },
+  {
+    "id": "fl-001",
+    "fullName": "Alex Morgan",
+    "email": "alex.morgan@example.com",
+    "hourlyRate": 85
+  },
+  {
+    "id": "fl-002",
+    "fullName": "Jordan Lee",
+    "email": "jordan.lee@example.com",
+    "hourlyRate": 95
+  },
+  {
+    "id": "fl-003",
+    "fullName": "Sam Rivera",
+    "email": "sam.rivera@example.com",
+    "hourlyRate": 70
+  },
+  {
+    "id": "fl-004",
+    "fullName": "Casey Nguyen",
+    "email": "casey.nguyen@example.com",
+    "hourlyRate": 110
+  }
+]

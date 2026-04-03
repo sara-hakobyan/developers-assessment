@@ -1,0 +1,119 @@
+[
+  {
+    "id": "te-001",
+    "worklogId": "wl-001",
+    "date": "2026-03-05T00:00:00.000Z",
+    "hours": 4,
+    "hourlyRate": 85,
+    "amount": 340,
+    "description": "OAuth2 client wiring and token refresh"
+  },
+  {
+    "id": "te-002",
+    "worklogId": "wl-001",
+    "date": "2026-03-12T00:00:00.000Z",
+    "hours": 6,
+    "hourlyRate": 85,
+    "amount": 510,
+    "description": "Pagination + filtering endpoints"
+  },
+  {
+    "id": "te-003",
+    "worklogId": "wl-001",
+    "date": "2026-03-20T00:00:00.000Z",
+    "hours": 3,
+    "hourlyRate": 85,
+    "amount": 255,
+    "description": "OpenAPI schema updates"
+  },
+  {
+    "id": "te-004",
+    "worklogId": "wl-002",
+    "date": "2026-03-08T00:00:00.000Z",
+    "hours": 8,
+    "hourlyRate": 85,
+    "amount": 680,
+    "description": "Worklogs table + empty states"
+  },
+  {
+    "id": "te-005",
+    "worklogId": "wl-002",
+    "date": "2026-03-25T00:00:00.000Z",
+    "hours": 5,
+    "hourlyRate": 85,
+    "amount": 425,
+    "description": "Payment review layout"
+  },
+  {
+    "id": "te-006",
+    "worklogId": "wl-003",
+    "date": "2026-03-18T00:00:00.000Z",
+    "hours": 7,
+    "hourlyRate": 95,
+    "amount": 665,
+    "description": "Breakpoints + sidebar collapse"
+  },
+  {
+    "id": "te-007",
+    "worklogId": "wl-003",
+    "date": "2026-04-02T00:00:00.000Z",
+    "hours": 4,
+    "hourlyRate": 95,
+    "amount": 380,
+    "description": "Touch targets and focus states"
+  },
+  {
+    "id": "te-008",
+    "worklogId": "wl-004",
+    "date": "2026-02-18T00:00:00.000Z",
+    "hours": 6,
+    "hourlyRate": 70,
+    "amount": 420,
+    "description": "Setup guide draft"
+  },
+  {
+    "id": "te-009",
+    "worklogId": "wl-004",
+    "date": "2026-03-28T00:00:00.000Z",
+    "hours": 8,
+    "hourlyRate": 70,
+    "amount": 560,
+    "description": "API reference + examples"
+  },
+  {
+    "id": "te-010",
+    "worklogId": "wl-005",
+    "date": "2026-03-11T00:00:00.000Z",
+    "hours": 6,
+    "hourlyRate": 110,
+    "amount": 660,
+    "description": "Dependency bump + CVE triage"
+  },
+  {
+    "id": "te-011",
+    "worklogId": "wl-005",
+    "date": "2026-03-22T00:00:00.000Z",
+    "hours": 8,
+    "hourlyRate": 110,
+    "amount": 880,
+    "description": "CORS + rate limit hardening"
+  },
+  {
+    "id": "te-012",
+    "worklogId": "wl-005",
+    "date": "2026-04-01T00:00:00.000Z",
+    "hours": 4,
+    "hourlyRate": 110,
+    "amount": 440,
+    "description": "Pen-test remediation follow-up"
+  },
+  {
+    "id": "te-013",
+    "worklogId": "wl-006",
+    "date": "2026-04-03T00:00:00.000Z",
+    "hours": 8,
+    "hourlyRate": 95,
+    "amount": 760,
+    "description": "Playwright flows for checkout"
+  }
+]

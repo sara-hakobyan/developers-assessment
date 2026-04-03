@@ -1,0 +1,167 @@
+[
+  {
+    "id": "wl-001",
+    "taskId": "task-api-01",
+    "taskTitle": "REST API integration",
+    "freelancerId": "fl-001",
+    "status": "submitted",
+    "submittedAt": "2026-04-02T09:12:00.000Z",
+    "periodStart": "2026-03-01T00:00:00.000Z",
+    "periodEnd": "2026-03-31T23:59:59.999Z",
+    "totalEarnings": 1105
+  },
+  {
+    "id": "wl-002",
+    "taskId": "task-dash-02",
+    "taskTitle": "Admin dashboard UI",
+    "freelancerId": "fl-001",
+    "status": "draft",
+    "submittedAt": null,
+    "periodStart": "2026-03-01T00:00:00.000Z",
+    "periodEnd": "2026-03-31T23:59:59.999Z",
+    "totalEarnings": 1105
+  },
+  {
+    "id": "wl-003",
+    "taskId": "task-mobile-03",
+    "taskTitle": "Mobile responsive pass",
+    "freelancerId": "fl-002",
+    "status": "submitted",
+    "submittedAt": "2026-04-15T16:05:00.000Z",
+    "periodStart": "2026-03-15T00:00:00.000Z",
+    "periodEnd": "2026-04-15T23:59:59.999Z",
+    "totalEarnings": 1045
+  },
+  {
+    "id": "wl-004",
+    "taskId": "task-docs-04",
+    "taskTitle": "Technical documentation",
+    "freelancerId": "fl-003",
+    "status": "draft",
+    "submittedAt": null,
+    "periodStart": "2026-02-15T00:00:00.000Z",
+    "periodEnd": "2026-03-31T23:59:59.999Z",
+    "totalEarnings": 980
+  },
+  {
+    "id": "wl-005",
+    "taskId": "task-audit-05",
+    "taskTitle": "Security audit fixes",
+    "freelancerId": "fl-004",
+    "status": "submitted",
+    "submittedAt": "2026-04-10T18:20:00.000Z",
+    "periodStart": "2026-03-10T00:00:00.000Z",
+    "periodEnd": "2026-04-10T23:59:59.999Z",
+    "totalEarnings": 1980
+  },
+  {
+    "id": "wl-006",
+    "taskId": "task-e2e-06",
+    "taskTitle": "E2E test suite",
+    "freelancerId": "fl-002",
+    "status": "draft",
+    "submittedAt": null,
+    "periodStart": "2026-04-01T00:00:00.000Z",
+    "periodEnd": "2026-04-30T23:59:59.999Z",
+    "totalEarnings": 760
+  },
+  {
+    "id": "wl-007",
+    "taskId": "task-ui-07",
+    "taskTitle": "Design system cleanup",
+    "freelancerId": "fl-000",
+    "status": "submitted",
+    "submittedAt": "2026-03-01T08:30:00.000Z",
+    "periodStart": "2026-02-01T00:00:00.000Z",
+    "periodEnd": "2026-02-28T23:59:59.999Z",
+    "totalEarnings": 1320
+  },
+  {
+    "id": "wl-008",
+    "taskId": "task-auth-08",
+    "taskTitle": "Authentication screens",
+    "freelancerId": "fl-000",
+    "status": "draft",
+    "submittedAt": null,
+    "periodStart": "2026-03-01T00:00:00.000Z",
+    "periodEnd": "2026-03-20T23:59:59.999Z",
+    "totalEarnings": 860
+  },
+  {
+    "id": "wl-009",
+    "taskId": "task-ops-09",
+    "taskTitle": "Monitoring setup",
+    "freelancerId": "fl-004",
+    "status": "submitted",
+    "submittedAt": "2026-02-16T07:55:00.000Z",
+    "periodStart": "2026-01-15T00:00:00.000Z",
+    "periodEnd": "2026-02-15T23:59:59.999Z",
+    "totalEarnings": 1450
+  },
+  {
+    "id": "wl-010",
+    "taskId": "task-content-10",
+    "taskTitle": "Help center articles",
+    "freelancerId": "fl-003",
+    "status": "submitted",
+    "submittedAt": "2026-03-28T11:06:00.000Z",
+    "periodStart": "2026-03-05T00:00:00.000Z",
+    "periodEnd": "2026-03-27T23:59:59.999Z",
+    "totalEarnings": 730
+  },
+  {
+    "id": "wl-011",
+    "taskId": "task-data-11",
+    "taskTitle": "Analytics dashboard",
+    "freelancerId": "fl-001",
+    "status": "draft",
+    "submittedAt": null,
+    "periodStart": "2026-02-10T00:00:00.000Z",
+    "periodEnd": "2026-03-10T23:59:59.999Z",
+    "totalEarnings": 1650
+  },
+  {
+    "id": "wl-012",
+    "taskId": "task-qa-12",
+    "taskTitle": "Regression testing",
+    "freelancerId": "fl-002",
+    "status": "submitted",
+    "submittedAt": "2026-03-29T13:41:00.000Z",
+    "periodStart": "2026-03-12T00:00:00.000Z",
+    "periodEnd": "2026-03-29T23:59:59.999Z",
+    "totalEarnings": 910
+  },
+  {
+    "id": "wl-013",
+    "taskId": "task-seo-13",
+    "taskTitle": "SEO improvements",
+    "freelancerId": "fl-003",
+    "status": "draft",
+    "submittedAt": null,
+    "periodStart": "2026-04-01T00:00:00.000Z",
+    "periodEnd": "2026-04-25T23:59:59.999Z",
+    "totalEarnings": 680
+  },
+  {
+    "id": "wl-014",
+    "taskId": "task-perf-14",
+    "taskTitle": "Performance optimization",
+    "freelancerId": "fl-004",
+    "status": "submitted",
+    "submittedAt": "2026-03-19T09:47:00.000Z",
+    "periodStart": "2026-02-20T00:00:00.000Z",
+    "periodEnd": "2026-03-18T23:59:59.999Z",
+    "totalEarnings": 2100
+  },
+  {
+    "id": "wl-015",
+    "taskId": "task-admin-15",
+    "taskTitle": "Role permissions matrix",
+    "freelancerId": "fl-000",
+    "status": "submitted",
+    "submittedAt": "2026-03-23T17:03:00.000Z",
+    "periodStart": "2026-03-02T00:00:00.000Z",
+    "periodEnd": "2026-03-22T23:59:59.999Z",
+    "totalEarnings": 990
+  }
+]
